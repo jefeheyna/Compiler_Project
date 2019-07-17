@@ -1,0 +1,21 @@
+type arrayType: 1 -> integer
+function whatever: sort {
+
+	[integer : i, j, temp, arraySize, key ; Boolean: me]
+	
+	arraySize := array._1;
+	temp := 0;
+	
+	for(i := 0; i < me; i := i + 1){
+		key := array(i);
+		j := i - 1;		
+	};
+	
+	whatever := temp;
+}
+type intArray: 3 -> integer : (7)
+type charArray: 1 -> character
+{
+  [intArray: ia; charArray: ca; Boolean: b]
+  reserve ia(2, 2, 2);
+}

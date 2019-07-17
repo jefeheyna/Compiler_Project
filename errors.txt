@@ -1,0 +1,2 @@
+LINE 15:53 ** ERROR: the name 'boolean', used here as a type, has not been declared at this point in the program.
+LINE 18:5 ** ERROR: the name 'rseult', used here as a variable name, has not been declared at this point in the program.
